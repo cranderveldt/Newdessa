@@ -1,0 +1,141 @@
+/*  
+Theme Name: Odessa
+Theme URI: http://odessafile.com
+Description: Theme designed by Arrgyle.
+Author: <a href="http://arrgyle.com">Arrgyle</a>   
+Author URI: http://arrgyle.com
+Version: 1.0 
+License: Copyright (c) 2012 Arrgyle
+License URI: http://arrgyle.com
+*/
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+/*End Reset*/
+.group:after {
+  	visibility: hidden;
+  	display: block;
+  	font-size: 0;
+  	content: " ";
+  	clear: both;
+  	height: 0;
+}
+* html .group	{ zoom: 1; } /* IE6 /
+*:first-child+html .group { zoom: 1; } / IE7 */
+
+a { text-decoration: underline; color: #a72323; }
+a:hover { color: #a92a21; }
+
+#header {
+
+}
+#header img { width: 817px; }
+#menu {
+	font:1em/2 "Helvetica Neue",Arial,Helvetica,sans-serif;
+	background: #a72225;
+	position: relative;
+	top: -14px;
+}
+#menu li {
+	display:inline;
+	margin:0;
+	padding:0;
+}
+#menu a {
+	float:left;
+	font-size: 13px;
+	padding: 7px 12px;
+	color: #fff;
+	background: #a72225;
+	text-decoration: none;
+}
+#menu a:hover,
+#menu a:focus {background:#b31203 0 -150px;}
+#menu .sel a {background:#720000 0 -300px;}
+#menu .sel a:hover,
+#menu .sel a:focus {background:#b31203 0 -150px;}
+#container {
+	width: 817px;
+	margin: 0 auto;
+	position: relative;
+}
+#left {
+	width: 200px;
+	float: left;
+	background: #f0eff4;
+}
+#content {
+	float: left;
+	background: #f0eff4;
+	margin-right: 0;
+	width: 607px;
+}
+#content .comments { display: none; }
+#right {
+	display: none;
+	width: 176px;
+	float: right;
+	background: #f0eff4;
+}
+
+.align-right { float:right; margin: 0 0 15px 15px; }
+.alignright { float:right; margin: 0 0 15px 15px; }
+.align-left { float:left; margin: 0 15px 15px 0; }
+.alignleft { float:left; margin: 0 15px 15px 0; }
+blockquote p { line-height: 2em; } 
+
+/* Home page */
+#h2-2 { display: none; }
+#body-2 #right { display: block; } 
+#body-2 #content { 
+	width: 421px;
+	margin: 0 10px;
+}

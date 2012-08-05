@@ -1,0 +1,8 @@
+<div id="header">
+			<ul>
+				<li class="nav-home"><a href="index.html">Home</a></li>
+				<li class="nav-about"><a href="#">About</a></li>
+				<li class="nav-community"><a href="#1">Community</a></li>
+				<li class="nav-other"><a href="#2">Other</a></li>
+			</ul>
+		</div>

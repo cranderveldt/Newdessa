@@ -1,0 +1,32 @@
+<?php include (TEMPLATEPATH . '/bottom.php'); ?>
+
+<div id="footer">
+
+	<!-- Credits -->
+	<a href="http://wordpress.org" title="Powered by WordPress">
+		<img class="credits" src="<?php bloginfo('template_directory'); ?>/images/wordpress.gif" alt="Designed by Wolfgang Bartelme" />
+	</a>
+	<a href="http://www.bartelme.at/" title="Designed by Wolfgang Bartelme">
+		<img class="credits" src="<?php bloginfo('template_directory'); ?>/images/bartelme.gif" alt="Designed by Wolfgang Bartelme" />
+	</a>
+	
+	<!-- Copyright -->
+	<p>
+		<?php _e('&copy; 2006 '); ?>
+		<a href="<?php echo get_settings('home'); ?>#top" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
+		<?php _e(' | '); ?>
+		<a href="http://www.ilemoned.com/wordpress/wptheme-fresh/" title="Fresh theme for WordPress"><?php _e('Fresh'); ?></a>
+		<br/>
+		<a class="validate" href="http://validator.w3.org/check/referer" title="<?php _e('Valid XHTML 1.0 Strict'); ?>"><?php _e('XHTML'); ?></a>
+		<a class="validate" href="http://jigsaw.w3.org/css-validator/validator?uri=<?php bloginfo('template_directory'); ?>/style.css" title="<?php _e('Valid CSS 2.0'); ?>"><?php _e('CSS'); ?></a>
+		<!-- a class="validate" href="http://www.contentquality.com/fulloptions.asp?Url1=<?php bloginfo('home'); ?>"><?php _e('508'); ?></a-->
+	</p>
+
+	<?php do_action('wp_footer'); ?>
+
+</div> <!-- end of #footer -->
+
+</div> <!-- end of #wrapper -->
+</div> <!-- end of #outline -->
+</body>
+</html> <!-- GOOD BYE -->
