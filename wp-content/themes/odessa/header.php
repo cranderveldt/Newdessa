@@ -18,6 +18,7 @@ if ($redirect)
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
 	<meta name="keywords" content="Odessa NY news, Schuyler County news, New York, Central New York, Odessa File, Charlie Haeffner, Charlie Heffner, Charles Haeffner, Charles Heffner, Charlie Hefner, Hefner, CNY">
 	<meta name="description" content="<?php bloginfo('name'); ?> <?php wp_title(); ?> - The latest breaking news on Odessa NY, Watkins Glen NY and Schuyler County, including sports, business, government, and people, with calendar of events and classified ads.">
+	<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/script.js"></script>
 </head>
 	
 <body id="body-<?php the_ID(); ?>">

@@ -84,6 +84,7 @@ a:hover { color: #a92a21; }
 	background: #a72225;
 	position: relative;
 	top: -14px;
+	margin-bottom: -14px;
 }
 #menu li {
 	display:inline;
@@ -107,6 +108,10 @@ a:hover { color: #a92a21; }
 	width: 817px;
 	margin: 0 auto;
 	position: relative;
+}
+#top {
+	background: #f0eff4;
+	padding: 10px 0;
 }
 #left {
 	width: 200px;
