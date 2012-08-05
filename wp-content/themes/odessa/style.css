@@ -71,6 +71,7 @@ footer,header,hgroup,menu,nav,section,summary {
 * html .group	{ zoom: 1; } /* IE6 /
 *:first-child+html .group { zoom: 1; } / IE7 */
 
+body { font-size: 14px; font-family: Arial, sans-serif; line-height: 1.3; }
 a { text-decoration: underline; color: #a72323; }
 a:hover { color: #a92a21; }
 
