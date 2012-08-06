@@ -190,7 +190,7 @@ class yg_recent_posts extends WP_Widget {
 		<p>
 			<label for="<?php echo $this->get_field_id('shownum'); ?>"><?php _e('Number of posts to show:');?> 
 				<input id="<?php echo $this->get_field_id('shownum'); ?>" name="<?php echo $this->get_field_name('shownum'); ?>" type="text" value="<?php echo $shownum; ?>" size ="3" /><br />
-				<small><?php _e('(at most 20)','adv-recent-posts'); ?></small>
+				<small><?php _e('(at most 40)','adv-recent-posts'); ?></small>
 			</label>
 		</p>
 		<p>
@@ -364,7 +364,7 @@ function yg_recentposts($args = '', $echo = true) {
 	$excerptlengthwords = (int) abs($excerptlengthwords);
 	$excerpt = '';
 	$cats = str_replace(" ", "", esc_attr($cats));
-	if (($shownum < 1 ) || ($shownum > 20)) $shownum = 10;
+	if (($shownum < 1 ) || ($shownum > 40)) $shownum = 10;
 	
 	/*$postlist = wp_cache_get('yg_recent_posts'); //Not yet
 	if ( false === $postlist ) {

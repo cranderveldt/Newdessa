@@ -1,4 +1,12 @@
 <?php
+if ( function_exists('register_sidebar') )
+    register_sidebar(array(
+        'name' => 'Top',
+        'before_widget' => '',
+        'after_widget' => '',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
 
 if ( function_exists('register_sidebar') )
      register_sidebar(array(
@@ -11,25 +19,16 @@ if ( function_exists('register_sidebar') )
 
 if ( function_exists('register_sidebar') )
     register_sidebar(array(
-		'name' => 'Footer',
-        'before_widget' => '',
-        'after_widget' => '',
-        'before_title' => '<h2 class="widgettitle">',
-        'after_title' => '</h2>',
-    ));
-
-if ( function_exists('register_sidebar') )
-    register_sidebar(array(
-        'name' => 'Top',
-        'before_widget' => '',
-        'after_widget' => '',
-        'before_title' => '<h2 class="widgettitle">',
-        'after_title' => '</h2>',
-    ));
-
-if ( function_exists('register_sidebar') )
-    register_sidebar(array(
 		'name' => 'Right Side',
+        'before_widget' => '',
+        'after_widget' => '',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
+
+if ( function_exists('register_sidebar') )
+    register_sidebar(array(
+        'name' => 'Footer',
         'before_widget' => '',
         'after_widget' => '',
         'before_title' => '<h2 class="widgettitle">',
